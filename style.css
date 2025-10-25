@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;padding: 0;font-style:initial;
+}
+body{
+    background-color: black;box-sizing: border-box;color: white;overflow-x: hidden;color: rgb(255,255,255);
+}
+.main{
+    background-image: url(image/nrtflix\ bg.jpg);height: 105vh;width: 100vw;background-position: center;position: relative;background-repeat: no-repeat;background-size: cover;
+}
+.box{ 
+    width: 100vw;height: 105vh;background-color: black;opacity: 0.72;position: absolute;top: 0;color:rgba(255,255,255);display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;
+}
+nav{
+    display: flex;justify-content: space-between;font-size: 150%;width: 80vw;margin: auto;padding-top: 20px;position: relative;z-index: 10;
+}
+.btn2{
+    background-color: red;border: 1px solid black;color: white;width: 70px;font-size: 16px;line-height: 24px;font-weight: 500;width: 80px;border-radius: 5px;padding: 5px 10px;text-transform: capitalize;
+}
+.net img{
+    color: red;
+    position: relative;z-index: 10;
+    width: 200;
+}
+.box h1,.box h5,.box h6{
+    
+}
+.box1 h1{
+    width: 550px;font-size: 56px;color: white;font-weight:900;line-height: 70px;
+}
+.box1{
+    width: 100%;display: flex;justify-content:center;align-items: center;flex-direction: column;text-align: center;height: 60vh;position:relative;z-index: 10;color: white;margin-top: 50px;;font-family: "Martel Sans", sans-serif;
+}
+.box1 h5{
+    font-size: 20px;font-weight: 500;
+}
+.box1 h6{
+    margin-top: 20px;font-size: 16px;font-weight: 400;
+}
+.get{
+    width: 60vw; ;display: flex;align-items: center;justify-content: center;gap: 10px;margin-top: 15px;
+}
+.get input{
+    width: 40%;height: 40px;opacity: 0.6;background-color: black;border: 1px solid white;color: white;border-radius: 5px;font-size: 16px;padding: 10px;
+}
+.get button{
+    height: 100%; background-color: red;color: white;width: 200px;font-size: 24px;line-height: 24px;border-radius: 10px;font-weight: 500;text-transform: capitalize;
+}
+.btn select{
+    font-size: 16px;line-height: 20px;font-weight: 400;background-color:rgba(36, 36, 32, 0.3);color:  white;width: 110px;margin: 10px;height: 25px;border-radius: 5px;border: 1px solid white;line-height: 24px;height: 34px;text-transform: capitalize;
+}
+.line{
+    width: 100%;height: 10px;background-color: rgb(83, 77, 77);
+}
+
+.imbox{
+    width: 75vw;display: flex;margin: auto;overflow-x: scroll;scrollbar-width: none;
+}
+.img-box{
+    width: 170px ;height: 220px ;border-radius: 5px;display: flex;justify-content: end;align-items: end;background-image:
+    flex-direction: column;
+    cursor: pointer;
+}
+.img-box:hover{
+    scale: 1.08;
+}
+.section1{
+     display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 50px;width: 100vw;padding: 5px;;
+}
+.tend-img{
+    display: flex;;margin: auto;align-items: center;justify-content: space-between ;width: 200vw;gap: 50px;padding: 25px;}
+.tend{
+    width: 100%;margin-bottom:30px;
+}
+.tend h1{
+    position: relative;left: 170px;
+}
+
+.img-box h1{
+    position: relative;bottom: -10px;left: -30px;width: 100%;
+     -webkit-text-stroke: 2px white;font-size: 100px;color: black;font-weight: 900;font-size: 120px;
+}
+.img1{
+    background-image: url(image/featurethebadsofbollywood-1755694974.jpg);background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;}
+.img2{
+    background-image: url(image/narsima\ img.webp);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img3{
+    background-image: url(image/saiyaara.webp);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img4{
+    background-image: url(image/war2.webp);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img5{
+    background-image: url(image/kuru.webp);background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img6{
+    background-image: url(image/wed6.webp);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img7{
+    background-image: url(image/alice7.webp);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img8{
+    background-image: url(image/kapil8);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img9{
+    background-image: url(image/img9.webp);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.img10{
+    background-image: url(image/img10);
+    background-position: center;background-repeat: no-repeat
+    ;
+    background-clip: content-box;
+background-size: cover;
+}
+.query{
+ width: 100%;height: 80px;background-color: rgb(45 45 45);display: flex;justify-content: center;
+}
+.boxx{
+    display: flex;width: 75vw;margin: auto;flex-direction: column;gap: 10px;
+}
+.line{
+    height: 90px;;border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    box-sizing: border-box;
+    position:absolute;
+    top: 95vh;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+;border-bottom: 2px solid black;
+z-index: 1;
+}
+
+.backline{
+    width: 100%;
+    height:80px;;border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    box-sizing: border-box;
+    position:absolute;
+    top: 95vh;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: red;
+    z-index: ;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+
+
+    
+}
+.cont{
+    background:linear-gradient(149deg, #192247 0%, #210e17 96.86%);height: 260px;border-radius: 20px;display: flex;flex-direction: column;justify-content: space-around;
+}
+.tend-img1{
+    width: 80vw;margin: auto;display: grid;grid-template-columns: repeat(auto-fit,minmax(295px ,1fr));gap: 10px;}
+.cont-img{ 
+    display: flex;justify-content: end;width: 98%
+}
+.text{
+    display: flex;flex-direction: column;justify-content: center;height: 50%;margin: 10px;gap: 15px;font-family: unset;font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.text h3{
+    font-size: 24px;font-weight: 500;
+}
+.tend{
+    margin-bottom: 10px;margin-left: 0;margin-right: 20px;font-size: 13px ;font-weight: 300;font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.query button{
+    width: 80%;background-color: rgb(45, 45, 45);width: 100%;color: white;display: flex;justify-content: space-between;align-items: center;font-size: 100%;padding: 20px;font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;text-transform: capitalize;font-weight: lighter;
+}
+button .plus{
+    font-size: 500%;font-weight:100;
+}
+.tt{
+    font-size: 24px;font-weight: 400;
+}
+.sec3{
+margin-top: 80px}
+.sec4{
+    height: 700px;
+}
+.sec4-part1{
+    display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 100px;gap: 15px;
+}
+.input2{
+    width: 60VW;display: flex;height: 50px;justify-content: center;gap: 10px;
+}
+.input2 input{
+    display: flex;width: 50%;height: 100%;opacity: 0.6;background-color: rgb(46, 44, 44);border: 1px solid white;color: white;border-radius: 5px;flex-direction: row;font-size: 24px;border-radius: 5px;box-sizing: border-box;padding: 10px;
+}
+.input2 button{
+    width: 25%;font-size: 180%;background-color: red;color: white;border-radius: 5px ;font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;font-weight: 500;
+}
+.sec4-part1 p{
+    font-size: 16px;line-height: 24px;font-weight: 400;
+}
+.link{
+    display: grid;justify-content:center;align-items: center;grid-template-columns: repeat(auto-fit,minmax(250px,1fr));gap: 30px;width: 80%;padding-left: 20px;
+}
+.link a{
+    color: white;
+}
+.sec4-part2{
+    display: flex;justify-content: center;align-items: center;flex-direction: column;height: 300px;gap: 50px;margin-top: 50px;
+}
+.call{
+    width: 80%;display: flex;
+}
+.bbtt{
+    width: 80%;margin: auto;padding: 0;height: 200px;display: flex;flex-direction: column;justify-content: space-between;
+}
+.bbtt select{width: 120px;}
+html{
+    overflow-x: hidden;
+}
+.net img{
+    width: 150px;
+}
+.get button{
+    color: rgba(255,255,255,0.9);
+}
+.get input{
+    background-color: #151516;text-transform: capitalize;color: white;
+}
+button{
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;color: rgba(255,255,255,0.5)
+}
+
+.main2{
+    display: flex;align-items: center;justify-content: center;margin: auto;
+}
+.main2 button{
+    background-color: rgb(45, 45, 45);height: 100px;text-align: center;border-radius: 7px;font-size: 150%;color: white;font-weight: 400;margin: 8px;padding: 3px;
+}
+
+
+
+@media (max-width:600px){
+    .main{
+        height: 85vh;
+    }
+    .net img{
+        width: 80px;
+    }
+    nav{
+    display: flex;justify-content:space-around;align-items: center;width: 90%;
+    }
+    .btn select{
+        width: 30%;
+    }
+    .btn{
+        display: flex;justify-content:center;align-items: center;width: 50%;gap: 5px;
+    }
+    .box{
+        height:85vh;
+    }
+    .box1{
+        margin: 0;display: flex;height: 70vh;padding-top: 0;align-items: center;
+    }
+    .box1 h1{
+        font-size: 32px ;font-weight: 700;width: 88%;line-height: 50px;;
+    }
+    .box1 h5{
+        font-size: 16px;font-weight: 400;
+    }
+    .box1 h6{
+        font-size: 16px;font-weight: 400;
+    }
+    .get{
+        width: 100%;display: flex;flex-direction: column;
+    }
+    .get input{
+        width:80% ;height: 30px;opacity: 0.8;
+    }
+    .get button{
+        height: 50px;width: 150px;;
+    }
+    .line{margin: 0;padding: 0;position: ;width: 100%;top:76vh;
+    }
+    .backline{
+        position: absolute;width: 100%;top: 76vh;overflow-x: hidden;
+    }
+    
+    
+    .tend h1{position: relative;left: 60px;font-size: 18px;font-weight: 500;
+    }
+    .img-box{
+        width:150px
+    }
+    .img-box h1{
+        font-size: 100px;
+    }
+    .tend-img{
+        width: 100000px;
+    }
+    
+    
+    
+    .sec3 .tend h1{
+        position: relative;left: 35px;font-size: 18px;font-weight: 500;
+    }
+    .tt{
+        font-size: 120%;
+    }
+    .plus{
+        font-weight: 200;
+    }
+    .sec4{
+        height: 130vh;
+    }
+    .sec4-part1{
+        margin-top: 50px;display: flex;flex-direction: column;justify-content: center;text-align: center;
+    }
+    .sec4-part1 p{
+        font-size: 16px;
+    }
+    .sec4-part2{
+        height: 90%;font-size: 15px;gap: 10px;
+    }
+    .input2{
+        display: flex;flex-direction: column;height: 200px;width: 85%;
+    }
+    .input2 input{
+        width: 100%;height: 50px;
+    }
+    .input2 button{
+        width: 148px;font-size: 25px;
+    }
+    .bbtt{
+        width: 100%;display: flex;flex-direction: column;justify-content: ;align-items: start;gap: 30px;height: 300px;color: rgba(255,255,255,0.8)
+    }
+    .bbtt p{
+        font-size: 13px;width: 55%;color: rgba(255,255,255,0.5)
+    }
+    .bbtt h4{
+        font-size: 14px;
+    }
+}
+.query{
+    border: 2px solid black;
+}
+
+
